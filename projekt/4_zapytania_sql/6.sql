@@ -1,0 +1,1 @@
+SELECT COUNT(pracownik_ID) AS 'ile mezczyzn' FROM pracownicy WHERE SUBSTR(pesel,10,1) IN ('1','3','5','7','9')

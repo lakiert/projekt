@@ -1,0 +1,1 @@
+SELECT produkty.nazwa,SUM(transakcje.wartosc) AS 'ile wydano na mleko' FROM produkty,transakcje WHERE produkty.produkt_ID=transakcje.produkt_ID AND produkty.nazwa LIKE 'mleko'

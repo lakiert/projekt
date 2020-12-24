@@ -1,0 +1,1 @@
+SELECT nazwa,cena_jednostkowa FROM produkty WHERE cena_jednostkowa=(SELECT MAX(cena_jednostkowa) FROM produkty);

@@ -1,0 +1,3 @@
+Projekt dotyczy hurtowni produktów spożywczych.
+Przedstawia sprzedawane produkty, ich producentów,
+dokonane transakcje oraz klientów, którzy kupowali dane produkty.

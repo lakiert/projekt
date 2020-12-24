@@ -1,0 +1,1 @@
+SELECT nazwa,cena_jednostkowa FROM produkty WHERE cena_jednostkowa=(SELECT MIN(cena_jednostkowa) FROM produkty);
