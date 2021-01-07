@@ -1,1 +1,0 @@
-CREATE PROCEDURE `WszyscyPracownicy`(IN `dane` CHAR(50)) SELECT imie,nazwisko FROM pracownicy
